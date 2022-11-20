@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="7E71DC5CA2EAA607C8AA71039ED1B327" Timestamp="1D41224052323A2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.3.1.49938" Name="LabVIEW NXG" Version="2.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="37" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<Canvas Id="38" Left="[float]0" Top="[float]0">
+					<Path Data="[PathGeometry]M 39,36 C 39,37.6500015 37.6500015,39 36,39 L 4,39 C 2.3499999,39 1,37.6500015 1,36 L 1,4 C 1,2.3499999 2.3499999,1 4,1 L 36,1 C 37.6500015,1 39,2.3499999 39,4 L 39,36 Z" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Id="39" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.34599996 39,4 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4,39 C 2.34599996,39 1,37.6539993 1,36 L 1,4 C 1,2.34599996 2.34599996,1 4,1 L 36,1 M 36,0 L 4,0 C 1.79999995,0 0,1.79999995 0,4 L 0,36 C 0,38.2000008 1.79999995,40 4,40 L 36,40 C 38.2000008,40 40,38.2000008 40,36 L 40,4 C 40,1.79999995 38.2000008,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,36 C 38,37.0999985 37.0999985,38 36,38 L 4,38 C 2.9000001,38 2,37.0999985 2,36 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 L 38,36 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Id="41" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 30.1270008,18.5489998 C 31.2910004,19.2229996 31.2910004,20.3260002 30.1270008,21 L 11.1169996,31.7119999 C 9.95300007,32.3860016 9,31.8369999 9,30.4909992 L 9,9.50899982 C 9,8.16399956 9.95300007,7.61399984 11.1169996,8.28800011 L 30.1270008,18.5489998 Z M 21,19 L 17,19 L 17,15 L 15,15 L 15,19 L 11,19 L 11,21 L 15,21 L 15,25 L 17,25 L 17,21 L 21,21 L 21,19 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="42" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,10 L 38,19 L 35.9080009,19 C 35.7010002,18.4190006 35.1520004,18 34.5,18 C 33.6720009,18 33,18.6720009 33,19.5 C 33,20.3279991 33.6720009,21 34.5,21 C 35.1520004,21 35.7019997,20.5809994 35.9080009,20 L 38,20 L 38,30 L 16.1919994,30 L 30.618,21.8710003 C 31.5,21.3610001 32,20.5979996 32,19.7740002 C 32,18.9500008 31.5,18.1879997 30.6280003,17.6830006 L 16.3929996,10 L 38,10 Z M 2,10 L 2,14 L 4.09200001,14 C 4.29899979,13.4189997 4.84800005,13 5.5,13 C 6.32800007,13 7,13.6719999 7,14.5 C 7,15.3280001 6.32800007,16 5.5,16 C 4.84800005,16 4.29799986,15.5810003 4.09200001,15 L 2,15 L 2,25 L 4.09200001,25 C 4.29899979,24.4190006 4.84800005,24 5.5,24 C 6.32800007,24 7,24.6720009 7,25.5 C 7,26.3279991 6.32800007,27 5.5,27 C 4.84800005,27 4.29799986,26.5809994 4.09200001,26 L 2,26 L 2,30 L 8,30 L 8,10 L 2,10 Z" Fill="[SMSolidColorBrush]#ff62839d" Height="[float]40" Id="43" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+				</Canvas>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<WhileLoop Bounds="215 -110 699 520" DiagramId="17" Id="16">
+				<LoopIteration Bounds="45 320 15 15" Id="18" />
+				<LoopCondition Bounds="200 260 15 15" Id="19" />
+				<Literal Bounds="145 260 25 15" DataType="Boolean" Id="20" Label="21" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="20" Bounds="110 260 30 15" Id="21" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>stop</p.Text>
+				</NodeLabel>
+				<Wire Id="22" Joints="N(20:Out)|(170,265) N(19:Input)|(200,265)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wait Bounds="175 205 40 40" Id="23" />
+				<Literal Bounds="120 220 45 15" DataType="UInt32" Id="24" Label="25" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>200</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+				</Literal>
+				<NodeLabel AttachedTo="24" Bounds="85 220 30 15" Id="25" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>milliseconds to wait</p.Text>
+				</NodeLabel>
+				<Wire Id="26" Joints="N(24:Out)|(165,225) N(23:time to wait)|(175,225)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Comment Bounds="35 20 415 28" Id="27" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+					<p.Text>"Inside the loop, place code that responds to user input and communicates with data sources over the network. "</p.Text>
+				</Comment>
+				<DataAccessor Bounds="325 115 40 15" DataItem="59" Id="60" Label="73" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double[,]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="60" Bounds="370 115 77 14" Id="73" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Banner Graph</p.Text>
+				</NodeLabel>
+				<ForLoop Bounds="108 73 116 111" DiagramId="81" Id="80">
+					<LoopIteration Bounds="5 81 15 15" Id="83" />
+					<RandomNumber Bounds="35 25 30 30" Id="79" />
+					<Wire Id="87" Joints="N(79:number (0 to 1\))|(65,40) N(88:i0)|(104,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					<RandomNumber Bounds="35 50 30 30" Id="90" />
+					<Wire Id="91" Joints="N(90:number (0 to 1\))|(65,65) N(92:i0)|(104,65)" xmlns="http://www.ni.com/PlatformFramework" />
+					<LoopCount Bounds="1 1 15 15" Docking="Left" Id="82" Terminals="80=86, 81" />
+					<LoopTunnel AutoIndex="True" Bounds="106 37 13 10" Docking="Right" Id="88" Terminals="o0=98, i0=87" TunnelMode="0" />
+					<LoopTunnel AutoIndex="True" Bounds="106 62 13 10" Docking="Right" Id="92" Terminals="o0=99, i0=91" TunnelMode="0" />
+				</ForLoop>
+				<Literal Bounds="50 75 45 15" DataType="Int32" Id="84" Label="85" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>100</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+				</Literal>
+				<NodeLabel AttachedTo="84" Bounds="50 57 30 15" Id="85" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>loop count</p.Text>
+				</NodeLabel>
+				<Wire Id="86" Joints="N(84:Out)|(95,80) N(82:80)|(109,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				<BuildArray Bounds="265 115 40 20" Id="97" Terminals="outArray=100, c0t0v=98, c1t0v=99" VerticalChunkCount="2" />
+				<Wire Id="98" Joints="N(88:o0)|(227,115) h(6) v(5) N(97:c0t0v)|(265,120)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="99" Joints="N(92:o0)|(227,140) h(33) v(-10) N(97:c1t0v)|(265,130)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="100" Joints="N(97:outArray)|(305,120) N(60:Value)|(328,120)" xmlns="http://www.ni.com/PlatformFramework" />
+			</WhileLoop>
+			<Comment Bounds="245 440 520 42" Id="28" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Top-Level WebVIs usually contain a While Loop that never stops so that they can continue running as long as the web page is open in the user's web browser.</p.Text>
+			</Comment>
+			<Comment Bounds="35 -110 170 90" Id="29" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Place setup code before the loop. For example, perform initial data communication and wire the results into the loop.</p.Text>
+			</Comment>
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]208" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;Main&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;        &lt;style ni-autogenerated-style-id=&quot;&quot;&gt;&#xA;            /* Read only section. Source panel edits to the content of this style tag will not be persisted */&#xA;            &#xA;            .ni-front-panel-wrapper {&#xA;                min-width: 1024px;&#xA;            }&#xA;            &#xA;            .ni-front-panel {&#xA;                width: 1024px;&#xA;                height: 2048px;&#xA;            }&#xA;            &#xA;            [data-ni-base-style] {&#xA;                position: absolute;&#xA;            }&#xA;            &#xA;            ni-cartesian-graph[ni-control-id='61'] {&#xA;                left: 4px;&#xA;                top: 324px;&#xA;                width: 1016px;&#xA;                height: 200px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-cartesian-axis[ni-control-id='62'] {&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-axis[ni-control-id='63'] {&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-plot[ni-control-id='64'] {&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-scale-legend[ni-control-id='68'] {&#xA;                left: 1019px;&#xA;                top: 464px;&#xA;                width: 145px;&#xA;                height: 60px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-plot-legend[ni-control-id='69'] {&#xA;                left: 1019px;&#xA;                top: 324px;&#xA;                width: 145px;&#xA;                height: 28px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cursor-legend[ni-control-id='70'] {&#xA;                left: 4px;&#xA;                top: 569px;&#xA;                width: 320px;&#xA;                height: 200px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-graph-tools[ni-control-id='71'] {&#xA;                left: 4px;&#xA;                top: 529px;&#xA;                width: 120px;&#xA;                height: 35px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='72'] {&#xA;                left: 4px;&#xA;                top: 304px;&#xA;                width: 80px;&#xA;                height: 16px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='74'] {&#xA;                left: 292px;&#xA;                top: 372px;&#xA;                width: 184px;&#xA;                height: 120px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                text-align: center;&#xA;                color: rgba(25, 19, 99, 1);&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='76'] {&#xA;                left: 468px;&#xA;                top: 356px;&#xA;                width: 312px;&#xA;                height: 120px;&#xA;                font-size: 96px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                text-align: center;&#xA;                color: rgba(25, 19, 99, 1);&#xA;            }&#xA;            /* End read only section. To add additional styles, add a new style tag after this one. */&#xA;        &lt;/style&gt;&#xA;&#xA;    &lt;/head&gt;&#xA;&#xA;    &lt;body&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-title&quot;&gt;&#xA;                Unable to load resource file&#xA;            &lt;/div&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-body&quot;&gt;&#xA;                Verify all WebVI files are available and served using an HTTP server or use a browser that can load files directly from the file system. See &lt;a href=&quot;http://digital.ni.com/express.nsf/bycode/HOSTWEBAPP&quot;&gt;Hosting a Web Application on a Server&lt;/a&gt;                for more information.&#xA;            &lt;/div&gt;&#xA;        &lt;/div&gt;&#xA;        &lt;div class=&quot;ni-front-panel-wrapper&quot;&gt;&#xA;            &lt;section id=&quot;FrontPanelCanvas&quot; class=&quot;ni-front-panel&quot;&gt;&#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;            &lt;/section&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlCartesianGraph DataSource="{DataItemBinding Id=59}" DataSourceType="[Type]Double[,]" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]200" Id="61" Label="[UIModel]72" Left="[float]4" PlotAreaMargin="[SMThickness]0,0,0,0" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]4" Width="[float]1016" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="62" Label="[string]Time" MajorDivisions="[UIModel]65" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Collapsed">
+					<HtmlRangeLabeledDivisions Id="65">
+						<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+					</HtmlRangeLabeledDivisions>
+				</HtmlAxis>
+				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="63" Label="[string]Amplitude" MajorDivisions="[UIModel]66" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Collapsed">
+					<HtmlRangeLabeledDivisions Id="66">
+						<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+					</HtmlRangeLabeledDivisions>
+				</HtmlAxis>
+				<HtmlPlot HorizontalScale="[UIModel]62" Id="64" Label="[string]Plot" VerticalScale="[UIModel]63" Visibility="[SMVisibility]Collapsed">
+					<HtmlPlotRenderer Id="67" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" />
+				</HtmlPlot>
+			</HtmlCartesianGraph>
+			<HtmlScaleLegend Extras="[Dictionary&lt;string, string&gt;]" Graph="[UIModel]61" Height="[float]60" Id="68" Left="[float]1019" MinWidth="[float]145" Top="[float]144" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlPlotLegend Extras="[Dictionary&lt;string, string&gt;]" Graph="[UIModel]61" Height="[float]28" Id="69" Left="[float]1019" MinWidth="[float]145" Top="[float]4" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlCursorLegend Extras="[Dictionary&lt;string, string&gt;]" Graph="[UIModel]61" Height="[float]200" Id="70" Left="[float]4" MinWidth="[float]320" Top="[float]249" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlGraphTools Extras="[Dictionary&lt;string, string&gt;]" Graph="[UIModel]61" Height="[float]35" Id="71" Left="[float]4" Top="[float]209" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Banner Graph&quot;" Height="[float]16" Id="72" LabelOwner="[UIModel]61" Left="[float]4" Text="[string]Banner Graph" Top="[float]-16" Visible="[bool]False" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]&quot;background-color&quot;=&quot;#FFFFFF&quot;" Foreground="[SMColor]#ff191363" Height="[float]120" Id="74" Left="[float]292" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Developing Web Pages using" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]52" Width="[float]184" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="20" Id="75" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+			<HtmlText BaseName="[string]Text" Extras="[Dictionary&lt;string, string&gt;]&quot;background-color&quot;=&quot;#FFFFFF&quot;" Foreground="[SMColor]#ff191363" Height="[float]120" Id="76" Left="[float]468" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Web VI" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]36" Width="[float]312" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="72" Id="77" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+		</HtmlFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Double[,]" Id="59" Name="Banner Graph" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
